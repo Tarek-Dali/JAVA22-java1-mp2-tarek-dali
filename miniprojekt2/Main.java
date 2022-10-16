@@ -21,6 +21,7 @@ public class Main {
 			System.out.println("\n1. Buy " + p.getName() + ", " + p.getPrice() + " SEK, " + p.getAmount());
 			System.out.println("2. Buy " + p2.getName() + ", " + p2.getPrice() + " SEK, " + p2.getAmount());
 			System.out.println("3. Buy " + osp.getName() + ", " + osp.getPrice() + " SEK, " + osp.getAmount());
+			System.out.println("4. Quit");
 			System.out.print("Choose your option: ");
 			input = scan.nextInt();
 			

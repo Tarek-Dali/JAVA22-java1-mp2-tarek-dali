@@ -10,7 +10,7 @@ class OnSaleProduct extends Product{
 	
 	
 	void discountedProduct() {
-		this.setPrice((int) (this.getPrice() * this.discount));
+		setPrice((int) (getPrice() * discount));
 	}
 	
 	
